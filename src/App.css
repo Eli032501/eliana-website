@@ -1,4 +1,26 @@
+:root {
+  --font-headers: "Swanky and Moo Moo", cursive;
+  --font-text: "Albert Sans", sans-serif;
+  --primary-color: #07393c;
+  --secundary-color: #2c666e;
+  --third-color: #90ddf0;
+  --fourth-color: #0a090c;
+  --fifth-color: #f0edee;
+}
+
 .App {
-  background-color: rgb(111, 201, 201);
+  background-color: var(--fifth-color);
+  font-family: var(--font-text);
   min-height: 100vh;
+}
+.App ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.App h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-headers);
 }
