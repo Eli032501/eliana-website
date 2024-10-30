@@ -33,7 +33,9 @@
 .Navbar .menu-icon-cl span:last-child {
   transform: translate(0, -225%) rotate(-45deg);
 }
-
+.Navbar .d-none {
+  display: none;
+}
 .Navbar .menu-group {
   position: fixed;
   top: 0;
