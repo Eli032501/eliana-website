@@ -12,11 +12,16 @@
   background-color: var(--fifth-color);
   font-family: var(--font-text);
   min-height: 100vh;
+  font-size: 16px;
 }
 .App ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.App a {
+  text-decoration: none;
+  color: var(--fourth-color);
 }
 .App h1,
 h2,

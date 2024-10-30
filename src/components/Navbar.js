@@ -6,26 +6,26 @@ export default function Navbar() {
   return (
     <nav className="Navbar">
       <strong>Frontend dev</strong>
-      <div className="menu-icon">
+      <div className="menu-icon menu-icon-cl">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <span className="menu-bg"></span>
-      <ul className="menu-links">
-        <li>
-          <Link to="/">home</Link>
-        </li>
-        <li>
-          <Link to="/about">about</Link>
-        </li>
-        <li>
-          <Link to="/projects">projects</Link>
-        </li>
-        <li>
-          <Link to="/contacts">contacts</Link>
-        </li>
-      </ul>
+      <div className="menu-group ">
+        <span className="menu-bg menu-position">
+          <ul>
+            <li className="menu-link">
+              <Link to="/">about me</Link>
+            </li>
+            <li className="menu-link">
+              <Link to="/projects">my projects</Link>
+            </li>
+            <li className="menu-link">
+              <Link to="/contacts">contact me</Link>
+            </li>
+          </ul>
+        </span>
+      </div>
     </nav>
   );
 }

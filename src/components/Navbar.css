@@ -1,17 +1,72 @@
 .Navbar {
   position: sticky;
   top: 0;
+  padding: 12px 20px;
   background-color: var(--primary-color);
 }
-
-.Navbar .menu-links {
+.Navbar .menu-icon {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0.75rem;
+  right: 0.75rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  height: 1.4rem;
+  width: 1.8rem;
+  cursor: pointer;
+}
+.Navbar .menu-icon span {
+  background-color: var(--fifth-color);
+  height: 0.24rem;
+  width: 100%;
+  border-radius: 0.2rem;
+}
+.Navbar .menu-icon-cl {
+  z-index: 1;
+}
+.Navbar .menu-icon-cl span:first-child {
+  display: none;
+}
+.Navbar .menu-icon-cl span:nth-child(2) {
+  transform: translate(0, 225%) rotate(45deg);
+}
+.Navbar .menu-icon-cl span:last-child {
+  transform: translate(0, -225%) rotate(-45deg);
+}
+
+.Navbar .menu-group {
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: rgba(78, 164, 164, 0.368);
   height: 100vh;
   width: 100%;
+}
+.Navbar .menu-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(18deg);
+  background-color: rgba(25, 126, 126, 0.98);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.289);
+  width: 300px;
+  height: 300px;
+}
+.Navbar .menu-group ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  transform: rotate(-20deg);
+  line-height: 4rem;
+}
+.Navbar .menu-link a {
+  font-family: var(--font-headers);
+  font-size: 1.8rem;
+  color: var(--fifth-color);
+}
+.Navbar .menu-link a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
