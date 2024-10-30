@@ -13,7 +13,7 @@
 }
 
 .App {
-  background-color: var(--fifth-color);
+  background-color: var(--third-color);
   font-family: var(--font-text);
   min-height: 100vh;
   font-size: 16px;

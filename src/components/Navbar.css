@@ -3,6 +3,7 @@
   top: 0;
   padding: 12px 20px;
   background-color: var(--primary-color);
+  margin-bottom: 16px;
 }
 .Navbar .menu-icon {
   position: absolute;

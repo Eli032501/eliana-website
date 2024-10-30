@@ -1,14 +1,16 @@
 import React from "react";
+import "./about.css";
 
+import ImgStyle from "../components/ImgStyle";
+import img1 from "../assets/test1.jpeg";
 export default function About() {
   return (
     <div className="About">
-      <img
-        width="100%"
-        alt="music"
-        src="https://www.awarenessdays.com/wp-content/uploads/2022/10/iStock-1319479588-1.jpg"
-      />
-      <h1>eliana pereira</h1>
+      <span className="gr-portrait">
+        <ImgStyle alt="test" src={img1} styleClass="portrait" />
+
+        <h1 className="title-img">eliana pereira</h1>
+      </span>
       <h2>about me</h2>
       <p>
         Lorem ipsum dolor sit amet. Et asperiores quia non tempora facere aut

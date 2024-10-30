@@ -1,0 +1,13 @@
+.About {
+  margin: 0px 20px;
+}
+
+.About .gr-portrait {
+  display: flex;
+  align-self: self-end;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+.About .title-img {
+}
