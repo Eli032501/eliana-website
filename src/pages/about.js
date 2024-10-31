@@ -3,6 +3,7 @@ import "./about.css";
 import ListPath from "../components/listPath";
 import ImgStyle from "../components/ImgStyle";
 import img1 from "../assets/test1.jpeg";
+import Footer from "../components/Footer";
 export default function About() {
   return (
     <div className="About ">
@@ -23,7 +24,9 @@ export default function About() {
         <span className="grid-full">
           <h3>languages</h3>
           <ul className="list-style">
-            <li>Portuguese - native</li>
+            <li>
+              Portuguese - <strong>native</strong>
+            </li>
             <li>English - advance</li>
           </ul>
         </span>
@@ -46,6 +49,7 @@ export default function About() {
               place="SheCodes - Online coding workshop"
             />
           </ul>
+          <Footer />
         </span>
       </span>
     </div>

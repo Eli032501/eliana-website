@@ -1,0 +1,20 @@
+.Footer {
+  margin: 20px 0px 40px;
+}
+
+.Footer .social-footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.Footer .social-footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.6rem;
+}
+.Footer .email-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}

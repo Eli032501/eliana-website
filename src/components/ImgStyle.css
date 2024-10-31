@@ -1,7 +1,5 @@
 .ImgStyle {
-  padding: 12px 12px 40px 12px;
   border-radius: 2px;
-  background-color: azure;
 }
 img {
   width: 100%;
@@ -9,5 +7,11 @@ img {
   object-fit: cover;
 }
 .portrait {
+  padding: 12px 12px 40px 12px;
+  background-color: azure;
   height: 240px;
+}
+.footer-icon {
+  width: auto;
+  height: 26px;
 }

@@ -24,7 +24,9 @@
   margin-top: 0.8rem;
   line-height: 1.6rem;
 }
-
+.About .list-style strong {
+  color: var(--primary-color);
+}
 .About .path-date {
   text-align: center;
   font-weight: 100;
