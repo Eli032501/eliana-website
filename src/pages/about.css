@@ -21,5 +21,21 @@
   grid-row: auto;
 }
 .About .list-style {
+  margin-top: 0.8rem;
   line-height: 1.6rem;
+}
+
+.About .path-date {
+  text-align: center;
+  font-weight: 100;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+.About .path-degree {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+.About .path-place {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
 }

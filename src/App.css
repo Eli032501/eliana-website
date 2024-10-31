@@ -16,7 +16,7 @@
   background-color: var(--third-color);
   font-family: var(--font-text);
   min-height: 100vh;
-  font-size: 14px;
+  font-size: 13px;
 }
 .App ul {
   list-style: none;
@@ -39,4 +39,11 @@ h4 {
 .App h3 {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.App h4 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.App p {
+  line-height: 1.1rem;
 }

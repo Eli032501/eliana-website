@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-
+import ListPath from "../components/listPath";
 import ImgStyle from "../components/ImgStyle";
 import img1 from "../assets/test1.jpeg";
 export default function About() {
@@ -30,16 +30,21 @@ export default function About() {
         <span className="grid-full">
           <h3>academic path</h3>
           <ul className="list-style">
-            <li>
-              <h4 className="path-date">2019-2021</h4>
-              <p className="path-degree">
-                Bachelor's degree in Audiovisual and Multimedia
-              </p>
-              <p>
-                School of Communication and Media Studies - Lisbon Polytechnic
-                Institute
-              </p>
-            </li>
+            <ListPath
+              date="2019 - 2022"
+              degree="Bachelor's degree in Audiovisual and Multimedia"
+              place="School of Communication and Media Studies - Lisbon Polytechnic Institute"
+            />
+            <ListPath
+              date="2022 - 2023"
+              degree="Web Front-End Specialization Course"
+              place="IADE Faculty of Design, Techonology and Communication"
+            />
+            <ListPath
+              date="2023 - 2024"
+              degree="Front-End Diploma - SheCodes"
+              place="SheCodes - Online coding workshop"
+            />
           </ul>
         </span>
       </span>
