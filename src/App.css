@@ -47,3 +47,21 @@ h4 {
 .App p {
   line-height: 1.1rem;
 }
+.App .flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.App .flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.App .wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px 0px;
+  grid-auto-rows: auto;
+}
+.App .grid-full {
+  grid-column: 1/ 7;
+  grid-row: auto;
+}

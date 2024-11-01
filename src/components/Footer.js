@@ -6,30 +6,42 @@ import resume from "../assets/file.png";
 import ImgStyle from "./ImgStyle";
 import SubText from "./SubText";
 
-export default function Footer() {
+export default function Footer({ iconDisplay, iconSize }) {
   return (
-    <div className="Footer">
-      <div className="social-footer">
-        <a
-          href="https://www.dropbox.com/scl/fo/5nw4nty5tfs2kpvkry3um/ABgDINgE0nm7Rz0Cr3IRHnQ?rlkey=wrdhrjf443zc9swth7z0by07e&st=zzmt9pvx&dl=0"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <ImgStyle src={resume} alt="my resume" styleClass="footer-icon" />
+    <div className="Footer flex-column">
+      <div className={`${iconDisplay} social-footer`}>
+        <span className="gr-icon flex-column">
+          <a
+            href="https://www.dropbox.com/scl/fo/5nw4nty5tfs2kpvkry3um/ABgDINgE0nm7Rz0Cr3IRHnQ?rlkey=wrdhrjf443zc9swth7z0by07e&st=zzmt9pvx&dl=0"
+            target="_blank"
+            rel="noreferrer"
+            className="flex-column"
+          >
+            <ImgStyle src={resume} alt="my resume" styleClass={iconSize} />
+          </a>
           <SubText text="resume" side="left" />
-        </a>
-        <a href="https://github.com/Eli032501" target="_blank" rel="noreferrer">
-          <ImgStyle src={social1} alt="my github" styleClass="footer-icon" />
-          <SubText text="linkedin" side="right" />
-        </a>
-        <a
-          href="https://pt.linkedin.com/in/elianapereira-dev"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <ImgStyle src={social2} alt="my linkedin" styleClass="footer-icon" />
-          <SubText text="github" side="left" />
-        </a>
+        </span>
+        <span className="gr-icon flex-column">
+          <a
+            href="https://github.com/Eli032501"
+            target="_blank"
+            rel="noreferrer"
+            className="flex-column"
+          >
+            <ImgStyle src={social1} alt="my github" styleClass={iconSize} />
+          </a>
+          <SubText text="github" side="right" />
+        </span>
+        <span className="gr-icon flex-column">
+          <a
+            href="https://pt.linkedin.com/in/elianapereira-dev"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImgStyle src={social2} alt="my linkedin" styleClass={iconSize} />
+          </a>
+          <SubText text="linkedin" side="left" />
+        </span>
       </div>
       <a
         className="email-link"

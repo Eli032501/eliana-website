@@ -1,5 +1,5 @@
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 20;
   color: var(--secundary-color);
 }
 .left {
@@ -14,7 +14,9 @@
 }
 .right .material-symbols-outlined {
   transform: rotate(180deg);
+  -webkit-transform: scaleX(-1);
 }
 .SubText p {
   font-family: var(--font-headers);
+  color: var(--secundary-color);
 }

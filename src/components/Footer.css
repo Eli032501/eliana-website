@@ -1,20 +1,36 @@
 .Footer {
-  margin: 20px 0px 40px;
+  margin-bottom: 30px;
+  align-items: center;
 }
 
 .Footer .social-footer {
-  display: flex;
+  width: 100%;
   justify-content: space-between;
-  align-content: center;
 }
-.Footer .social-footer a {
-  display: flex;
-  flex-direction: column;
+.Footer .social-footer .gr-icon {
+  margin: 0 0.5rem;
   align-items: center;
-  margin: 0 0.6rem;
+}
+.Footer a {
+  transition: all 120ms ease-in-out;
+}
+.Footer .social-footer .gr-icon a:hover {
+  transform: rotate(20deg);
+}
+.Footer .social-footer .gr-icon:nth-child(2) a:hover {
+  transform: rotate(-20deg);
 }
 .Footer .email-link {
-  display: block;
-  text-align: center;
+  margin-top: 1.6rem;
+  font-family: var(--font-headers);
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+.Footer .email-link:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.Footer .flex-column .gr-icon {
   margin-top: 20px;
 }
