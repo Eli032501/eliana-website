@@ -3,9 +3,8 @@
 }
 
 .About .title-img {
-  grid-column: 3 / 7;
-  grid-row: 3/ 4;
-  line-height: 3rem;
+  grid-column: 2/ 4;
+  grid-row: 3;
   text-align: center;
 }
 

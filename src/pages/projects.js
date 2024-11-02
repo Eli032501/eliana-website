@@ -10,13 +10,13 @@ export default function Projects() {
     <div className="Projects ">
       <span className="wrapper">
         <span className="subtext-grid">
-          <SubText text="click to check it out" side=" down" />
+          <SubText text="click here to check it out" side=" down" />
         </span>
         <ImgStyle alt="test" src={prj1} styleClass="portrait prj-img" />
 
-        <h2 className="title-img">eliana pereira</h2>
+        <h2 className="title-img">weather app</h2>
 
-        <span className="grid-left">
+        <span className="grid-full">
           <h4>React . Bootstrap . API</h4>
           <p>
             Lorem ipsum dolor sit amet. Et asperiores quia non tempora facere

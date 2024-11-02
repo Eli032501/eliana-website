@@ -34,7 +34,8 @@ h4 {
   font-family: var(--font-headers);
 }
 .App h2 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
 }
 .App h3 {
   font-size: 1.4rem;
@@ -57,15 +58,11 @@ h4 {
 }
 .App .wrapper {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 18px 0px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem 1.4rem;
   grid-auto-rows: auto;
 }
 .App .grid-full {
-  grid-column: 1/ 7;
-  grid-row: auto;
-}
-.App .grid-left {
-  grid-column: 1/ 7;
+  grid-column: 1/ 4;
   grid-row: auto;
 }
