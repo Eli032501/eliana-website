@@ -8,7 +8,11 @@ export default function About() {
   return (
     <div className="About ">
       <span className="wrapper">
-        <ImgStyle alt="test" src={img1} styleClass="portrait profile-img" />
+        <ImgStyle
+          alt="test"
+          src={img1}
+          styleClass="portrait profile-img grid-img"
+        />
 
         <h2 className="title-img">eliana pereira</h2>
 

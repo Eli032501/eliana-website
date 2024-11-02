@@ -9,8 +9,6 @@ img {
 .portrait {
   padding: 10px 10px 44px 10px;
   background-color: var(--fifth-color);
-  grid-column: 2/ 4;
-  grid-row: 1 / 4;
 }
 .profile-img {
   height: 190px;

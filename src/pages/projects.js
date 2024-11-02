@@ -12,8 +12,14 @@ export default function Projects() {
         <span className="subtext-grid">
           <SubText text="click here to check it out" side=" down" />
         </span>
-        <ImgStyle alt="test" src={prj1} styleClass="portrait prj-img" />
-
+        <a
+          className="grid-img"
+          href="https://react-weather-forecast-eli.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <ImgStyle alt="test" src={prj1} styleClass="portrait prj-img" />
+        </a>
         <h2 className="title-img">weather app</h2>
 
         <span className="grid-full">

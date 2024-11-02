@@ -66,3 +66,7 @@ h4 {
   grid-column: 1/ 4;
   grid-row: auto;
 }
+.App .grid-img {
+  grid-column: 2/ 4;
+  grid-row: 1 / 4;
+}
