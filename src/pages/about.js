@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="About ">
       <span className="wrapper">
-        <ImgStyle alt="test" src={img1} styleClass="portrait" />
+        <ImgStyle alt="test" src={img1} styleClass="portrait profile-img" />
 
         <h2 className="title-img">eliana pereira</h2>
 
@@ -49,6 +49,7 @@ export default function About() {
               place="SheCodes - Online coding workshop"
             />
           </ul>
+          <br />
           <br />
           <Footer iconDisplay="flex-row" iconSize="footer-icon" />
         </span>

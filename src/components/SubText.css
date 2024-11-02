@@ -2,19 +2,26 @@
   font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 20;
   color: var(--secundary-color);
 }
-.left {
+.SubText {
   display: flex;
+}
+.left {
   flex-direction: row;
   align-items: baseline;
 }
 .right {
-  display: flex;
   flex-direction: row-reverse;
   align-items: baseline;
 }
+.down {
+  flex-direction: column-reverse;
+  align-items: end;
+}
 .right .material-symbols-outlined {
-  transform: rotate(180deg);
-  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1) rotate(180deg);
+}
+.down .material-symbols-outlined {
+  transform: scaleY(-1) rotate(53deg);
 }
 .SubText p {
   font-family: var(--font-headers);

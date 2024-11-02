@@ -7,9 +7,16 @@ img {
   object-fit: cover;
 }
 .portrait {
-  padding: 12px 12px 40px 12px;
-  background-color: azure;
-  height: 240px;
+  padding: 10px 10px 44px 10px;
+  background-color: var(--fifth-color);
+  grid-column: 3 / 7;
+  grid-row: 1 / 3;
+}
+.profile-img {
+  height: 190px;
+}
+.prj-img {
+  height: 140px;
 }
 .footer-icon {
   width: auto;
