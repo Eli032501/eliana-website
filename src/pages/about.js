@@ -53,11 +53,9 @@ export default function About() {
               place="SheCodes - Online coding workshop"
             />
           </ul>
-          <br />
-          <br />
-          <Footer iconDisplay="flex-row" iconSize="footer-icon" />
         </span>
       </span>
+      <Footer iconDisplay="flex-row" iconSize="footer-icon" />
     </div>
   );
 }

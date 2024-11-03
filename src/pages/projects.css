@@ -5,14 +5,29 @@
   grid-column: 1/ 2;
   grid-row: 2/ 3;
 }
+.Projects a {
+  max-height: calc(var(--img-height-pr) + 54px);
+  position: relative;
+  transition: all 150ms ease-in-out;
+}
 .Projects .title-img {
-  grid-column: 2/ 4;
-  grid-row: 3;
+  position: relative;
+  top: -2.6rem;
+  left: 0;
   text-align: center;
+}
+
+.Projects a:hover {
+  transform: rotate(-6deg);
+  opacity: 0.96;
+}
+.Projects a:hover .title-img {
+  color: var(--secundary-color);
 }
 .Projects p {
   text-align: justify;
 }
+
 .Projects h4 {
   font-weight: 500;
   color: var(--secundary-color);

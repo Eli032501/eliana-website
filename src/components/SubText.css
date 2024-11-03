@@ -18,7 +18,7 @@
   align-items: end;
 }
 .right .material-symbols-outlined {
-  transform: scaleX(-1) rotate(180deg);
+  transform: scaleX(-1);
 }
 .down .material-symbols-outlined {
   transform: scaleY(-1) rotate(53deg);

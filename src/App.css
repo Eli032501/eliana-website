@@ -10,6 +10,7 @@
   --third-color: #90ddf0;
   --fourth-color: #0a090c;
   --fifth-color: #f0edee;
+  --img-height-pr: 140px;
 }
 
 .App {
@@ -32,6 +33,9 @@ h2,
 h3,
 h4 {
   font-family: var(--font-headers);
+}
+.App h1 {
+  margin-bottom: 1.5rem;
 }
 .App h2 {
   font-size: 1.5rem;
@@ -61,6 +65,7 @@ h4 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem 1.4rem;
   grid-auto-rows: auto;
+  margin-bottom: 2.6rem;
 }
 .App .grid-full {
   grid-column: 1/ 4;
