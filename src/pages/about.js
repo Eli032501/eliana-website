@@ -16,7 +16,7 @@ export default function About() {
 
         <h2 className="title-img">eliana pereira</h2>
 
-        <span className="grid-full">
+        <span className="grid-content">
           <h3>about me</h3>
           <p>
             Lorem ipsum dolor sit amet. Et asperiores quia non tempora facere
@@ -24,8 +24,7 @@ export default function About() {
             itaque velit est quae illo a iusto fugit non quia dolorum. Ut magnam
             sint qui iste sequi et enim laborum est neque nisi sed esse quaerat!
           </p>
-        </span>
-        <span className="grid-full">
+          <br />
           <h3>languages</h3>
           <ul className="list-style">
             <li>
@@ -33,8 +32,8 @@ export default function About() {
             </li>
             <li>English - advance</li>
           </ul>
-        </span>
-        <span className="grid-full">
+          <br />
+
           <h3>academic path</h3>
           <ul className="list-style">
             <ListPath

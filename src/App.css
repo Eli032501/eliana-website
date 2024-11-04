@@ -78,7 +78,7 @@ h4 {
   grid-auto-rows: auto;
   margin-bottom: 2.8rem;
 }
-.App .grid-full {
+.App .grid-content {
   grid-column: 1/ 4;
   grid-row: auto;
 }
@@ -95,4 +95,18 @@ h4 {
 }
 .App .footer a {
   color: var(--fourth-color);
+}
+@media (min-width: 768px) {
+  .App .wrapper {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+  .App .grid-content {
+    grid-column: 1/ 4;
+    grid-row: auto;
+  }
+  .App .grid-img {
+    grid-column: 4/ 6;
+    grid-row: 1 / 4;
+  }
 }

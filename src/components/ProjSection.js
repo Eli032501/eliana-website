@@ -19,7 +19,7 @@ export default function ProjSection({ title, text, subtitle, img, link }) {
         <h2 className="title-img">{title}</h2>
       </a>
 
-      <span className="grid-full">
+      <span className="grid-content">
         <h4>{subtitle}</h4>
         <p className="prj-description">{text}</p>
       </span>
