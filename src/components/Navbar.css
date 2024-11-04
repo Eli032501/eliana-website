@@ -31,10 +31,6 @@
   z-index: 2;
 }
 .Navbar .menu-icon-cl span {
-  background-color: var(--fourth-color);
-}
-
-.Navbar .menu-icon-cl:hover span {
   background-color: var(--secundary-color);
 }
 

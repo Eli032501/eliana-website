@@ -24,10 +24,6 @@
   opacity: 1;
 }
 
-.Projects p {
-  text-align: justify;
-}
-
 .Projects h4 {
   font-family: var(--font-text);
   line-height: 1.3rem;
