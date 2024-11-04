@@ -17,9 +17,12 @@
   background-color: var(--secundary-color);
   font-family: var(--font-text);
   color: var(--primary-color);
-
   min-height: 100vh;
   font-size: 12px;
+}
+.App .Layout main {
+  width: min(calc(100% - 40px), 46rem);
+  margin: 0 auto;
 }
 .App ul {
   list-style: none;

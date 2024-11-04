@@ -18,6 +18,7 @@ function App() {
           </Route>
         </Routes>
       </Router>
+
       <p className="footer">
         Eliana Pereira 2024 -{" "}
         <a

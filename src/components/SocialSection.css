@@ -4,10 +4,11 @@
 
 .SocialSection .social-footer {
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .SocialSection .social-footer .gr-icon {
-  margin: 0 0.5rem;
+  margin: 0.5rem 1.2rem;
   align-items: center;
 }
 .SocialSection a {
