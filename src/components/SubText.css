@@ -1,6 +1,6 @@
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 20;
-  color: var(--secundary-color);
+  color: var(--third-color);
 }
 .SubText {
   display: flex;
@@ -25,5 +25,7 @@
 }
 .SubText p {
   font-family: var(--font-headers);
-  color: var(--secundary-color);
+  color: var(--third-color);
+  font-size: 0.7rem;
+  text-align: left;
 }

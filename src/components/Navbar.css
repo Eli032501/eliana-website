@@ -2,7 +2,8 @@
   position: sticky;
   top: 0;
   padding: 12px 20px;
-  background-color: var(--primary-color);
+  background-color: var(--secundary-color);
+  border-bottom: 1px solid var(--fourth-color);
   margin-bottom: 16px;
   z-index: 1;
 }

@@ -1,0 +1,31 @@
+.SocialSection {
+  align-items: center;
+}
+
+.SocialSection .social-footer {
+  width: 100%;
+  justify-content: space-between;
+}
+.SocialSection .social-footer .gr-icon {
+  margin: 0 0.5rem;
+  align-items: center;
+}
+.SocialSection a {
+  transition: all 120ms ease-in-out;
+}
+.SocialSection .social-footer .gr-icon a:hover {
+  transform: rotate(16deg);
+}
+.SocialSection .social-footer .gr-icon:nth-child(2) a:hover {
+  transform: rotate(-16deg);
+}
+.SocialSection .email-link {
+  margin-top: 1.6rem;
+  font-family: var(--font-headers);
+  font-size: 0.86rem;
+  color: var(--primary-color);
+}
+
+.SocialSection .flex-column .gr-icon {
+  margin-top: 20px;
+}

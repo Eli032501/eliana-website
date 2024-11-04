@@ -18,6 +18,17 @@ function App() {
           </Route>
         </Routes>
       </Router>
+      <p className="footer">
+        Eliana Pereira 2024 -{" "}
+        <a
+          href="https://github.com/Eli032501/eliana-website"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open source
+        </a>{" "}
+        website
+      </p>
     </div>
   );
 }

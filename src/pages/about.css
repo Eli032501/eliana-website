@@ -11,21 +11,24 @@
 .About .list-style {
   margin-top: 0.8rem;
   line-height: 1.6rem;
+  line-height: normal;
 }
 .About .list-style strong {
-  color: var(--primary-color);
+  font-weight: 600;
+}
+.About .list-style div {
+  width: 75%;
 }
 .About .path-date {
-  text-align: center;
+  text-align: end;
   font-weight: 100;
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4em;
 }
 .About .path-degree {
   font-weight: 500;
-  margin-bottom: 0.3rem;
 }
 .About .path-place {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
+  color: var(--third-color);
+  font-size: 0.9em;
+  line-height: 0.8px;
 }

@@ -3,7 +3,7 @@ import "./about.css";
 import ListPath from "../components/listPath";
 import ImgStyle from "../components/ImgStyle";
 import img1 from "../assets/test1.jpeg";
-import Footer from "../components/Footer";
+import SocialSection from "../components/SocialSection";
 export default function About() {
   return (
     <div className="About ">
@@ -40,22 +40,27 @@ export default function About() {
             <ListPath
               date="2019 - 2022"
               degree="Bachelor's degree in Audiovisual and Multimedia"
-              place="School of Communication and Media Studies - Lisbon Polytechnic Institute"
+              place="School of Communication and Media Studies - Lisbon PI"
+              link="https://www.escs.ipl.pt/en"
             />
+            <br />
             <ListPath
               date="2022 - 2023"
               degree="Web Front-End Specialization Course"
               place="IADE Faculty of Design, Techonology and Communication"
+              link="https://www.iade.europeia.pt/en/iade/"
             />
+            <br />
             <ListPath
               date="2023 - 2024"
               degree="Front-End Diploma - SheCodes"
               place="SheCodes - Online coding workshop"
+              link="https://www.shecodes.io/"
             />
           </ul>
         </span>
       </span>
-      <Footer iconDisplay="flex-row" iconSize="footer-icon" />
+      <SocialSection iconDisplay="flex-row" iconSize="footer-icon" />
     </div>
   );
 }

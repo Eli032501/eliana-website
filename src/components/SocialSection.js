@@ -1,14 +1,14 @@
 import React from "react";
-import "./Footer.css";
+import "./SocialSection.css";
 import social1 from "../assets/git.png";
 import social2 from "../assets/linkedin.png";
 import resume from "../assets/file.png";
 import ImgStyle from "./ImgStyle";
 import SubText from "./SubText";
 
-export default function Footer({ iconDisplay, iconSize }) {
+export default function SocialSection({ iconDisplay, iconSize }) {
   return (
-    <div className="Footer flex-column">
+    <div className="SocialSection flex-column">
       <div className={`${iconDisplay} social-footer`}>
         <span className="gr-icon flex-column">
           <a

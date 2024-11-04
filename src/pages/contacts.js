@@ -1,12 +1,12 @@
 import React from "react";
-import Footer from "../components/Footer";
+import SocialSection from "../components/SocialSection";
 import "./contacts.css";
 
 export default function Contacts() {
   return (
     <div className="Contacts">
       <h1>get in touch!</h1>
-      <Footer iconDisplay="flex-column" iconSize="contact-icon" />
+      <SocialSection iconDisplay="flex-column" iconSize="contact-icon" />
     </div>
   );
 }

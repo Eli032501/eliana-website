@@ -8,8 +8,8 @@ img {
 }
 .portrait {
   padding: 10px 10px 44px 10px;
-  background-color: var(--fifth-color);
-  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.239);
+  background-color: #f8f8fe;
+  box-shadow: 5px 5px 12px #14154360;
 }
 .profile-img {
   height: 190px;

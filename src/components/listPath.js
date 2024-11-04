@@ -1,11 +1,15 @@
 import React from "react";
 
-export default function ListPath({ date, degree, place }) {
+export default function ListPath({ date, degree, place, link }) {
   return (
     <li className="ListPath">
       <h4 className="path-date">{date}</h4>
-      <p className="path-degree">{degree}</p>
-      <p className="path-place">{place} </p>
+      <div>
+        <p className="path-degree">{degree}</p>
+        <a href={link} target="_blank" rel="noreferrer" className="path-place">
+          {place}
+        </a>
+      </div>
     </li>
   );
 }

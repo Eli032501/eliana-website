@@ -8,7 +8,6 @@
 .Projects a {
   max-height: calc(var(--img-height-pr) + 54px);
   position: relative;
-  transition: all 150ms ease-in-out;
 }
 .Projects .title-img {
   position: relative;
@@ -19,16 +18,15 @@
 
 .Projects a:hover {
   transform: rotate(-6deg);
-  opacity: 0.96;
+  opacity: 1;
 }
-.Projects a:hover .title-img {
-  color: var(--secundary-color);
-}
+
 .Projects p {
   text-align: justify;
 }
 
 .Projects h4 {
-  font-weight: 500;
-  color: var(--secundary-color);
+  font-family: var(--font-text);
+  line-height: 1.3rem;
+  text-transform: capitalize;
 }

@@ -5,19 +5,21 @@
 :root {
   --font-headers: "Swanky and Moo Moo", cursive;
   --font-text: "Albert Sans", sans-serif;
-  --primary-color: #07393c;
-  --secundary-color: #2c666e;
-  --third-color: #90ddf0;
-  --fourth-color: #0a090c;
-  --fifth-color: #f0edee;
+  --primary-color: #141543;
+  --secundary-color: #e7e8ff;
+  --third-color: #4f50b1;
+  --fourth-color: #c22f5b;
+  --fifth-color: #ffadc5;
   --img-height-pr: 140px;
 }
 
 .App {
-  background-color: var(--third-color);
+  background-color: var(--secundary-color);
   font-family: var(--font-text);
+  color: var(--primary-color);
+
   min-height: 100vh;
-  font-size: 13px;
+  font-size: 12px;
 }
 .App ul {
   list-style: none;
@@ -27,6 +29,11 @@
 .App a {
   text-decoration: none;
   color: var(--fourth-color);
+  transition: all 150ms ease-in-out;
+}
+.App a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
 }
 .App h1,
 h2,
@@ -41,16 +48,19 @@ h4 {
   font-size: 1.5rem;
   line-height: 2.4rem;
 }
+.App .title-img {
+  color: var(--fourth-color);
+}
 .App h3 {
   font-size: 1.4rem;
   line-height: 2rem;
 }
 .App h4 {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+  font-size: 1em;
+  line-height: 1rem;
 }
 .App p {
-  line-height: 1.1rem;
+  line-height: 1rem;
 }
 .App .flex-row {
   display: flex;
@@ -63,9 +73,9 @@ h4 {
 .App .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem 1.4rem;
+  gap: 1rem;
   grid-auto-rows: auto;
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.8rem;
 }
 .App .grid-full {
   grid-column: 1/ 4;
@@ -74,4 +84,14 @@ h4 {
 .App .grid-img {
   grid-column: 2/ 4;
   grid-row: 1 / 4;
+}
+.App .footer {
+  font-size: 8px;
+  padding: 0.3rem 0.6rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--secundary-color);
+}
+.App .footer a {
+  color: var(--fifth-color);
 }

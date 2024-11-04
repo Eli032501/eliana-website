@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import prj1 from "../assets/pr1.png";
 import prj2 from "../assets/pr2.png";
-import Footer from "../components/Footer";
+import SocialSection from "../components/SocialSection";
 import ProjSection from "../components/ProjSection";
 export default function Projects() {
   return (
@@ -23,7 +23,7 @@ export default function Projects() {
         img={prj2}
         link="https://react-weather-forecast-eli.netlify.app/"
       />
-      <Footer iconDisplay="flex-row" iconSize="footer-icon" />
+      <SocialSection iconDisplay="flex-row" iconSize="footer-icon" />
     </div>
   );
 }
