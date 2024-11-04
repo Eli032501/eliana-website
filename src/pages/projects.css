@@ -1,5 +1,8 @@
 .Projects {
-  margin: 20px 20px;
+  margin: 10px 20px 20px;
+}
+.Projects h1 {
+  margin-bottom: 1.2rem;
 }
 .Projects .subtext-grid {
   grid-column: 1/ 2;

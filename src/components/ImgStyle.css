@@ -9,7 +9,7 @@ img {
 .portrait {
   padding: 10px 10px 44px 10px;
   background-color: #f8f8fe;
-  box-shadow: 5px 5px 12px #14154360;
+  box-shadow: var(--shadow);
 }
 .profile-img {
   height: 190px;
