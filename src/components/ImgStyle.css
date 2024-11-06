@@ -12,10 +12,10 @@ img {
   box-shadow: var(--shadow);
 }
 .profile-img {
-  height: 190px;
+  height: var(--profile-height-img);
 }
 .prj-img {
-  height: var(--img-height-pr);
+  height: var(--prj-height-img);
 }
 .footer-icon {
   width: auto;

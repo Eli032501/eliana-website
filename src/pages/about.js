@@ -50,9 +50,9 @@ export default function About() {
               link="https://www.shecodes.io/"
             />
           </ul>
+          <SocialSection iconDisplay="flex-row" iconSize="footer-icon" />
         </span>
       </span>
-      <SocialSection iconDisplay="flex-row" iconSize="footer-icon" />
     </div>
   );
 }

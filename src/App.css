@@ -9,7 +9,8 @@
   --secundary-color: #eef5ff;
   --third-color: #4c70ad;
   --fourth-color: #b24d7a;
-  --img-height-pr: 140px;
+  --prj-height-img: 140px;
+  --profile-height-img: 190px;
   --shadow: 5px 5px 12px #14154360;
 }
 
@@ -80,15 +81,12 @@ h4 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   grid-auto-rows: auto;
-  margin-bottom: 2.8rem;
 }
 .App .grid-content {
   grid-column: 1/ 4;
   grid-row: auto;
 }
-.App .grid-img {
-  grid-column: 2/ 4;
-}
+
 .App .footer {
   font-size: 8px;
   padding: 0.3rem 0.6rem;
@@ -105,16 +103,12 @@ h4 {
   }
 }
 @media (min-width: 768px) {
+  :root {
+    --prj-height-img: 140px;
+    --profile-height-img: 250px;
+  }
   .App .wrapper {
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-  }
-  .App .grid-content {
-    grid-column: 1/ 4;
-    grid-row: auto;
-  }
-  .App .grid-img {
-    grid-column: 4/ 6;
-    grid-row: 1 / 4;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem 2rem;
   }
 }
