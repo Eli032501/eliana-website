@@ -35,11 +35,3 @@
   color: var(--third-color);
   font-size: 0.7rem;
 }
-@media (min-width: 768px) {
-  .top .material-symbols-outlined {
-    transform: scaleX(-1) rotate(45deg);
-  }
-  .down .material-symbols-outlined {
-    transform: scaleX(1) rotate(-135deg);
-  }
-}

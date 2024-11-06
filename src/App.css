@@ -18,8 +18,8 @@
   background-color: var(--secundary-color);
   font-family: var(--font-text);
   color: var(--primary-color);
-  min-height: 100vh;
   font-size: 12px;
+  min-height: 100vh;
 }
 .App .Layout main {
   width: min(calc(100% - 40px), 46rem);
@@ -81,6 +81,7 @@ h4 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   grid-auto-rows: auto;
+  margin-bottom: 1.8rem;
 }
 .App .grid-content {
   grid-column: 1/ 4;
@@ -97,11 +98,7 @@ h4 {
 .App .footer a {
   color: var(--fourth-color);
 }
-@media (max-width: 320px) {
-  .App .wrapper {
-    margin-bottom: 2.2rem;
-  }
-}
+
 @media (min-width: 768px) {
   :root {
     --prj-height-img: 140px;
@@ -109,6 +106,6 @@ h4 {
   }
   .App .wrapper {
     grid-template-columns: repeat(6, 1fr);
-    gap: 1rem 2rem;
+    gap: 1rem 3.5rem;
   }
 }

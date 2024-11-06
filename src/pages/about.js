@@ -23,6 +23,7 @@ export default function About() {
             <li>
               Portuguese - <strong>native</strong>
             </li>
+
             <li>English - advance</li>
           </ul>
           <br />
@@ -35,14 +36,14 @@ export default function About() {
               place="School of Communication and Media Studies - Lisbon PI"
               link="https://www.escs.ipl.pt/en"
             />
-            <br />
+
             <ListPath
               date="2022 - 2023"
               degree="Web Front-End Specialization Course"
               place="IADE Faculty of Design, Techonology and Communication"
               link="https://www.iade.europeia.pt/en/iade/"
             />
-            <br />
+
             <ListPath
               date="2023 - 2024"
               degree="Front-End Diploma - SheCodes"
