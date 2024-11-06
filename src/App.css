@@ -5,10 +5,10 @@
 :root {
   --font-headers: "Swanky and Moo Moo", cursive;
   --font-text: "Albert Sans", sans-serif;
-  --primary-color: #141543;
-  --secundary-color: #e5e6ff;
-  --third-color: #4f50b1;
-  --fourth-color: #ab2256;
+  --primary-color: #002d54;
+  --secundary-color: #eef5ff;
+  --third-color: #4c70ad;
+  --fourth-color: #b24d7a;
   --img-height-pr: 140px;
   --shadow: 5px 5px 12px #14154360;
 }
