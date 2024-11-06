@@ -17,11 +17,18 @@
   flex-direction: column-reverse;
   align-items: end;
 }
+.top {
+  flex-direction: column;
+  align-items: end;
+}
 .right .material-symbols-outlined {
   transform: scaleX(-1);
 }
 .down .material-symbols-outlined {
   transform: scaleY(-1) rotate(53deg);
+}
+.top .material-symbols-outlined {
+  transform: rotate(53deg);
 }
 .SubText p {
   font-family: var(--font-headers);

@@ -1,5 +1,5 @@
 .Projects {
-  margin: 10px 20px 20px;
+  margin: 10px 0px 20px;
 }
 .Projects h1 {
   margin-bottom: 1.2rem;
@@ -11,12 +11,6 @@
 .Projects a {
   max-height: calc(var(--img-height-pr) + 54px);
   position: relative;
-}
-.Projects .title-img {
-  position: relative;
-  top: -2.6rem;
-  left: 0;
-  text-align: center;
 }
 
 .Projects a:hover {

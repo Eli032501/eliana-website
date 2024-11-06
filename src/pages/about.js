@@ -1,21 +1,14 @@
 import React from "react";
 import "./about.css";
 import ListPath from "../components/listPath";
-import ImgStyle from "../components/ImgStyle";
-import img1 from "../assets/test1.jpeg";
+import Header from "../components/Header";
+
 import SocialSection from "../components/SocialSection";
 export default function About() {
   return (
     <div className="About ">
       <span className="wrapper">
-        <ImgStyle
-          alt="test"
-          src={img1}
-          styleClass="portrait profile-img grid-img"
-        />
-
-        <h2 className="title-img">eliana pereira</h2>
-
+        <Header />
         <span className="grid-content">
           <h3>about me</h3>
           <p>

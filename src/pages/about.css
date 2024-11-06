@@ -1,13 +1,23 @@
 .About {
-  margin: 20px 20px;
+  margin: 20px 0px;
 }
-
-.About .title-img {
-  grid-column: 2/ 4;
-  grid-row: 3;
-  text-align: center;
+.About .Header {
+  grid-column: 1/ 4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-template-rows: repeat(4, 1fr);
 }
-
+.About .Header .grid-img {
+  max-height: calc(190px + 54px);
+  grid-row: 1 / 5;
+}
+.About .Header .SubText {
+  grid-column: 1/ 2;
+}
+.About .Header .top {
+  margin-right: 1rem;
+}
 .About .list-style {
   margin-top: 0.8rem;
   line-height: 1.6rem;
@@ -31,4 +41,13 @@
   color: var(--third-color);
   font-size: 0.9em;
   line-height: 0.8px;
+}
+
+@media (max-width: 280px) {
+  .About .Header {
+    display: block;
+  }
+  .About .Header .SubText {
+    display: none;
+  }
 }

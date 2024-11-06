@@ -50,6 +50,10 @@ h4 {
   line-height: 2.4rem;
 }
 .App .title-img {
+  position: relative;
+  top: -2.6rem;
+  left: 0;
+  text-align: center;
   color: var(--fourth-color);
 }
 .App h3 {
@@ -84,7 +88,6 @@ h4 {
 }
 .App .grid-img {
   grid-column: 2/ 4;
-  grid-row: 1 / 4;
 }
 .App .footer {
   font-size: 8px;
@@ -95,6 +98,11 @@ h4 {
 }
 .App .footer a {
   color: var(--fourth-color);
+}
+@media (max-width: 320px) {
+  .App .wrapper {
+    margin-bottom: 2.2rem;
+  }
 }
 @media (min-width: 768px) {
   .App .wrapper {

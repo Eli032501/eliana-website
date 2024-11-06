@@ -4,11 +4,10 @@
 
 .SocialSection .social-footer {
   width: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
+  max-width: 280px;
+  justify-content: space-between;
 }
 .SocialSection .social-footer .gr-icon {
-  margin: 0.5rem 1.2rem;
   align-items: center;
 }
 .SocialSection a {
@@ -29,4 +28,14 @@
 
 .SocialSection .flex-column .gr-icon {
   margin-top: 20px;
+}
+
+@media (max-width: 320px) {
+  .SocialSection .social-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .SocialSection .social-footer .gr-icon {
+    margin: 0.6rem 0.9rem;
+  }
 }
