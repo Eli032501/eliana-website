@@ -69,6 +69,10 @@
 .About .Skills .ImgStyle {
   margin: 0.5rem 1.2rem;
 }
+
+.About .Skills i {
+  margin: 1.2rem 1.2rem;
+}
 .About .social-footer {
   display: flex;
   flex-direction: row;
