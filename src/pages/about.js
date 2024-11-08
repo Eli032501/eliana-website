@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import ListPath from "../components/listPath";
 import Header from "../components/Header";
+import Skills from "../components/Skills";
 
 import SocialSection from "../components/SocialSection";
 export default function About() {
@@ -26,7 +27,8 @@ export default function About() {
 
             <li>English - advance</li>
           </ul>
-
+          <h3>skills</h3>
+          <Skills />
           <h3>academic path</h3>
           <ul className="list-style">
             <ListPath
