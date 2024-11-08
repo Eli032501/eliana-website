@@ -7,9 +7,9 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   grid-template-rows: repeat(4, 1fr);
+  max-height: calc(var(--profile-height-img) + 54px);
 }
 .About .Header .grid-img {
-  max-height: calc(var(--profile-height-img) + 54px);
   grid-row: 1 / 5;
   grid-column: 2/ 5;
 }
@@ -22,6 +22,9 @@
 }
 .About .Header .top p {
   margin-right: 1rem;
+}
+.About .grid-content h3 {
+  margin-top: 2rem;
 }
 .About .list-style {
   margin-top: 0.5rem;
@@ -50,7 +53,7 @@
   line-height: 0.8px;
 }
 .About .SocialSection {
-  margin-top: 2.4rem;
+  margin-top: 3rem;
 }
 @media (max-width: 280px) {
   .About .Header {

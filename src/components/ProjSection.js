@@ -7,18 +7,18 @@ import SubText from "../components/SubText";
 export default function ProjSection({ title, text, subtitle, img, link }) {
   return (
     <div className="ProjSection wrapper">
-      <span className="subtext-grid">
+      <div className="group-grid">
         <SubText text="click here to check it out" side=" down" />
-      </span>
-      <a className="grid-img" href={link} target="_blank" rel="noreferrer">
-        <ImgStyle
-          alt={`${title} image `}
-          src={img}
-          styleClass="portrait prj-img"
-        />
-        <h2 className="title-img">{title}</h2>
-      </a>
 
+        <a className="grid-img" href={link} target="_blank" rel="noreferrer">
+          <ImgStyle
+            alt={`${title} image `}
+            src={img}
+            styleClass="portrait prj-img"
+          />
+          <h2 className="title-img">{title}</h2>
+        </a>
+      </div>
       <span className="grid-content">
         <h4>{subtitle}</h4>
         <p className="prj-description">{text}</p>

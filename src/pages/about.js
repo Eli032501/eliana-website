@@ -17,7 +17,7 @@ export default function About() {
             itaque velit est quae illo a iusto fugit non quia dolorum. Ut magnam
             sint qui iste sequi et enim laborum est neque nisi sed esse quaerat!
           </p>
-          <br />
+
           <h3>languages</h3>
           <ul className="list-style">
             <li>
@@ -26,7 +26,6 @@ export default function About() {
 
             <li>English - advance</li>
           </ul>
-          <br />
 
           <h3>academic path</h3>
           <ul className="list-style">
