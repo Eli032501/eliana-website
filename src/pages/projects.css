@@ -1,6 +1,9 @@
 .Projects {
   margin: 10px 0px 20px;
 }
+.Projects .wrapper {
+  gap: 1.3rem;
+}
 .Projects h1 {
   margin-bottom: 1.8rem;
 }
@@ -55,7 +58,7 @@
     grid-column: 1/ 5;
     grid-row: 3 / 4;
     text-align: left;
-    justify-content: center;
+    justify-content: start;
     flex-direction: row-reverse;
   }
   .down .material-symbols-outlined {
@@ -78,11 +81,14 @@
   }
 }
 @media (min-width: 768px) {
+  .Projects .wrapper {
+    gap: 0rem 3rem;
+  }
   .Projects .group-grid {
     grid-column: 1/ 4;
   }
   .Projects .grid-content {
-    margin-top: calc(var(--prj-height-img) / 3);
+    margin-top: calc(var(--prj-height-img) / 2);
     grid-column: 4/ 7;
     grid-row: 1/ 3;
   }

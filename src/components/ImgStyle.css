@@ -25,3 +25,8 @@ img {
   width: auto;
   height: 28px;
 }
+@media (max-width: 400px) {
+  .footer-icon {
+    height: 18px;
+  }
+}

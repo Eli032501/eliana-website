@@ -21,9 +21,9 @@
   transform: rotate(-16deg);
 }
 .SocialSection .email-link {
-  margin-top: 1.6rem;
+  margin-top: 1.8em;
   font-family: var(--font-headers);
-  font-size: 0.86rem;
+  font-size: 1em;
   color: var(--primary-color);
 }
 
@@ -31,7 +31,7 @@
   margin-top: 20px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .SocialSection .social-footer {
     flex-wrap: wrap;
     justify-content: center;
