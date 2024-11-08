@@ -6,7 +6,7 @@ export default function Contacts() {
   return (
     <div className="Contacts">
       <h1>get in touch!</h1>
-      <SocialSection iconDisplay="flex-column" iconSize="contact-icon" />
+      <SocialSection iconSize="contact-icon" />
     </div>
   );
 }

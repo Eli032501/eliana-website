@@ -1,5 +1,6 @@
 .SocialSection {
   align-items: center;
+  margin-bottom: 1.3rem;
 }
 
 .SocialSection .social-footer {
@@ -26,7 +27,7 @@
   color: var(--primary-color);
 }
 
-.SocialSection .flex-column .gr-icon {
+.SocialSection .social-footer .gr-icon {
   margin-top: 20px;
 }
 

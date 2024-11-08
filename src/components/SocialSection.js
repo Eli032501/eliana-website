@@ -6,10 +6,10 @@ import resume from "../assets/file.png";
 import ImgStyle from "./ImgStyle";
 import SubText from "./SubText";
 
-export default function SocialSection({ iconDisplay, iconSize }) {
+export default function SocialSection({ iconSize }) {
   return (
     <div className="SocialSection flex-column">
-      <div className={`${iconDisplay} social-footer`}>
+      <div className="social-footer">
         <span className="gr-icon flex-column">
           <a
             href="https://www.dropbox.com/scl/fo/5nw4nty5tfs2kpvkry3um/ABgDINgE0nm7Rz0Cr3IRHnQ?rlkey=wrdhrjf443zc9swth7z0by07e&st=zzmt9pvx&dl=0"

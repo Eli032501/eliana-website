@@ -1,3 +1,17 @@
 .Contacts {
   margin: 10px 20px 20px;
 }
+.Contacts h1 {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 400px) {
+  .Contacts {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+  .Contacts .social-footer {
+    display: flex;
+    flex-direction: row;
+  }
+}

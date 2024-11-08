@@ -4,7 +4,9 @@
 .Projects h1 {
   margin-bottom: 1.8rem;
 }
-
+.Projects .ProjSection {
+  margin-bottom: 2.5rem;
+}
 .Projects .group-grid {
   grid-column: 1/ 4;
   display: grid;
@@ -37,8 +39,10 @@
   line-height: 1.3rem;
   text-transform: capitalize;
 }
-.Projects .SocialSection {
-  margin-top: 3rem;
+
+.Projects .social-footer {
+  display: flex;
+  flex-direction: row;
 }
 @media (max-width: 280px) {
   :root {

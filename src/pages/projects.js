@@ -23,7 +23,7 @@ export default function Projects() {
         img={prj2}
         link="https://react-weather-forecast-eli.netlify.app/"
       />
-      <SocialSection iconDisplay="flex-row" iconSize="footer-icon" />
+      <SocialSection iconSize="footer-icon" />
     </div>
   );
 }
