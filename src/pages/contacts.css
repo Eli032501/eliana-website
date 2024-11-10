@@ -4,15 +4,18 @@
 .Contacts h1 {
   margin-bottom: 1rem;
 }
+.Contacts .SocialSection .social-footer {
+  max-width: 400px;
+}
 
 @media (min-width: 400px) {
   .Contacts {
-    max-width: 425px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 3rem auto;
   }
   .Contacts .social-footer {
     display: flex;
     flex-direction: row;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
   }
 }

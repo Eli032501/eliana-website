@@ -33,5 +33,5 @@
 .SubText p {
   font-family: var(--font-headers);
   color: var(--third-color);
-  font-size: 0.8em;
+  font-size: 1em;
 }

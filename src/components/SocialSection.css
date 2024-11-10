@@ -1,11 +1,11 @@
 .SocialSection {
   align-items: center;
-  margin-bottom: 1.3rem;
+  margin-bottom: 2em;
 }
 
 .SocialSection .social-footer {
   width: 100%;
-  max-width: 280px;
+  max-width: 300px;
   justify-content: space-between;
 }
 .SocialSection .social-footer .gr-icon {
@@ -21,9 +21,9 @@
   transform: rotate(-16deg);
 }
 .SocialSection .email-link {
-  margin-top: 1.8em;
+  margin-top: 1.6em;
   font-family: var(--font-headers);
-  font-size: 1em;
+  font-size: 1.1em;
   color: var(--primary-color);
 }
 

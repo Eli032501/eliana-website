@@ -11,6 +11,7 @@
   --fourth-color: #b24d7a;
   --prj-height-img: 140px;
   --profile-height-img: 190px;
+  --padding-img: 10px 10px 40px 10px;
   --shadow: 5px 5px 12px #14154360;
 }
 
@@ -18,11 +19,11 @@
   background-color: var(--secundary-color);
   font-family: var(--font-text);
   color: var(--primary-color);
-  font-size: 11px;
+  font-size: 12px;
   min-height: 100vh;
 }
 .App .Layout main {
-  width: min(calc(100% - 40px), 46rem);
+  width: min(calc(100% - 40px), 1054px);
   margin: 0 auto;
 }
 .App ul {
@@ -47,24 +48,24 @@ h4 {
 }
 
 .App h2 {
-  font-size: 2.2em;
-  line-height: 1.2em;
+  font-size: 2.4em;
+  line-height: 0.6em;
 }
 .App .title-img {
   position: relative;
-  top: -2.6rem;
+  top: -1em;
   left: 0;
   text-align: center;
   color: var(--fourth-color);
 }
 .App h3 {
-  font-size: 1.6em;
-  line-height: 1.5em;
+  font-size: 1.8em;
+  line-height: 1.8em;
 }
 .App h4,
 .App p {
-  font-size: 1em;
-  line-height: 1.3em;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 .App .flex-row {
@@ -88,7 +89,7 @@ h4 {
 .App .footer {
   position: sticky;
   top: 100vh;
-  font-size: 8px;
+  font-size: 0.7em;
   padding: 0.3rem 0.6rem;
   text-align: center;
   background-color: var(--primary-color);
@@ -99,15 +100,22 @@ h4 {
 }
 @media (min-width: 450px) {
   .App {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   :root {
-    --prj-height-img: 140px;
-    --profile-height-img: 220px;
+    --prj-height-img: 230px;
+    --profile-height-img: 330px;
+    --padding-img: 18px 18px 58px 18px;
   }
   .App .wrapper {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .App {
+    font-size: 16px;
+  }
+  .App .title-img {
+    top: -1.2em;
   }
 }

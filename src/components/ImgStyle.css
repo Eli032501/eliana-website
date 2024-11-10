@@ -7,7 +7,7 @@ img {
   object-fit: cover;
 }
 .portrait {
-  padding: 10px 10px 44px 10px;
+  padding: var(--padding-img);
   background-color: #f8f8fe;
   box-shadow: var(--shadow);
 }
@@ -19,14 +19,19 @@ img {
 }
 .footer-icon {
   width: auto;
-  height: 23px;
+  height: 26px;
 }
 .contact-icon {
   width: auto;
-  height: 28px;
+  height: 32px;
 }
 @media (max-width: 400px) {
   .footer-icon {
     height: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .contact-icon {
+    height: 40px;
   }
 }
