@@ -1,8 +1,8 @@
 import React from "react";
 import "./SocialSection.css";
-import social1 from "../assets/git.png";
-import social2 from "../assets/linkedin.png";
-import resume from "../assets/file.png";
+import social1 from "../assets/Github.svg";
+import social2 from "../assets/Linkedin.svg";
+import resume from "../assets/File.svg";
 import ImgStyle from "./ImgStyle";
 import SubText from "./SubText";
 
