@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -9,28 +9,31 @@ export default function Navbar() {
     const menuIcon = document.getElementById("menuIcon");
     const menuExpand = document.getElementById("menuExpand");
     menuIcon.classList.toggle("menu-icon-cl");
-    menuExpand.classList.toggle("d-none");
+    menuExpand.classList.toggle("menu-close");
   }
 
   return (
     <nav className="Navbar">
-      <strong>Frontend dev</strong>
+      <Link to="/" className="nav-title">
+        Frontend dev
+      </Link>
+
       <div id="menuIcon" className="menu-icon" onClick={handleMenu}>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div id="menuExpand" className="menu-group d-none">
-        <span className="menu-bg menu-position">
+      <div id="menuExpand" className="menu-group menu-close">
+        <span className="menu-bg">
           <ul>
             <li className="menu-link" onClick={handleMenu}>
-              <Link to="/">about me</Link>
+              <NavLink to="/">about me</NavLink>
             </li>
             <li className="menu-link" onClick={handleMenu}>
-              <Link to="/projects">my projects</Link>
+              <NavLink to="/projects">my projects</NavLink>
             </li>
             <li className="menu-link" onClick={handleMenu}>
-              <Link to="/contacts">contact me</Link>
+              <NavLink to="/contacts">contact me</NavLink>
             </li>
           </ul>
         </span>
