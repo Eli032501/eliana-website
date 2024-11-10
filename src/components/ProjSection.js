@@ -8,7 +8,7 @@ export default function ProjSection({ title, text, subtitle, img, link }) {
   return (
     <div className="ProjSection wrapper">
       <div className="group-grid">
-        <SubText text="click here to check it out" side=" down" />
+        <SubText text="click here and check it out" side=" down" />
 
         <a className="grid-img" href={link} target="_blank" rel="noreferrer">
           <ImgStyle

@@ -2,13 +2,13 @@
   margin: 10px 0px 20px;
 }
 .Projects .wrapper {
-  gap: 1.3rem;
+  gap: 1.8rem 1.3rem;
 }
 .Projects h1 {
   margin-bottom: 1.8rem;
 }
 .Projects .ProjSection {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 .Projects .group-grid {
   grid-column: 1/ 4;
@@ -76,13 +76,13 @@
 }
 @media (max-width: 768px) {
   .Projects {
-    max-width: 425px;
+    max-width: 390px;
     margin: 0 auto;
   }
 }
 @media (min-width: 768px) {
   .Projects .wrapper {
-    gap: 0rem 3rem;
+    gap: 1rem 3rem;
   }
   .Projects .group-grid {
     grid-column: 1/ 4;
