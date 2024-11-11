@@ -14,25 +14,6 @@
   --padding-img: 10px 10px 40px 10px;
   --shadow: 5px 5px 12px #14154360;
 }
-#myApp.dark {
-  --primary-color: #eef5ff;
-  --secundary-color: #002d54;
-  --third-color: #4c70ad;
-  --fourth-color: #b24d7a;
-  color: #dcdcdc;
-}
-.App .dark-icon {
-  display: none;
-}
-#myApp.dark .dark-icon {
-  display: block;
-}
-#myApp.dark .light-icon {
-  display: none;
-}
-.dark-mode-btn {
-  background-color: #b24d7a;
-}
 
 .App {
   background-color: var(--secundary-color);
@@ -118,6 +99,34 @@ h4 {
 .App .footer a {
   color: var(--fourth-color);
 }
+/* --- Dark mode changes --- */
+#myApp.dark {
+  --primary-color: #eef5ff;
+  --secundary-color: #002d54;
+  --third-color: #b24d7a;
+  --fourth-color: #b24d7a;
+}
+.App .dark-icon {
+  display: none;
+}
+#myApp.dark .dark-icon {
+  display: block;
+}
+#myApp.dark .light-icon {
+  display: none;
+}
+#myApp.dark .footer {
+  background-color: var(--third-color);
+  color: var(--primary-color);
+}
+#myApp.dark .footer a {
+  color: var(--secundary-color);
+}
+.dark-mode-btn {
+  background-color: #b24d7a;
+}
+/* ------- Responsive -------- */
+
 @media (min-width: 450px) {
   .App {
     font-size: 14px;
