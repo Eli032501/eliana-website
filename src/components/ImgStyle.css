@@ -11,6 +11,7 @@ img {
   background-color: #f8f8fe;
   box-shadow: var(--shadow);
 }
+
 .profile-img {
   height: var(--profile-height-img);
 }

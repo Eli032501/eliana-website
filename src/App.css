@@ -54,7 +54,7 @@ h4 {
 }
 .App .title-img {
   position: relative;
-  top: -1em;
+  top: -1.1em;
   left: 0;
   text-align: center;
   color: var(--fourth-color);
@@ -105,10 +105,11 @@ h4 {
   --secundary-color: #002d54;
   --third-color: #7c9dd5;
   --fifth-color: #d58bac;
+  --shadow: 3px 3px 10px #d58bac15;
 }
 #myApp.dark h3,
 #myApp.dark h1 {
-  color: var(--fifth-color);
+  color: var(--third-color);
 }
 
 .App .dark-icon {

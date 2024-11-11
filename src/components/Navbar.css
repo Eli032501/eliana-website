@@ -86,11 +86,14 @@
 .Navbar .menu-link a {
   font-family: var(--font-headers);
   font-size: 2.3em;
+  color: var(--primary-color);
+}
+.Navbar .menu-link .active {
   color: var(--fourth-color);
 }
-.Navbar .menu-link .active,
 .Navbar .menu-link a:hover {
-  color: var(--third-color);
+  color: var(--fourth-color);
+  opacity: 1;
 }
 
 .Navbar .menu-link .active:hover {
@@ -98,11 +101,11 @@
   text-decoration: none;
 }
 #myApp.dark .Navbar .menu-link a {
-  color: var(--fifth-color);
+  color: var(--primary-color);
 }
 #myApp.dark .Navbar .menu-link .active,
 #myApp.dark .Navbar .menu-link a:hover {
-  color: var(--third-color);
+  color: var(--fifth-color);
 }
 @media (min-width: 450px) {
   .Navbar .menu-bg {
@@ -130,6 +133,9 @@
     height: unset;
     width: unset;
   }
+  #myApp.dark .Navbar .menu-group {
+    background-color: unset;
+  }
   .Navbar .menu-bg {
     position: unset;
     transform: unset;
@@ -156,15 +162,18 @@
     color: var(--fourth-color);
     opacity: 1;
   }
-
+  .Navbar .menu-link .active,
   .Navbar .menu-link .active:hover {
     color: var(--third-color);
   }
-  #myApp.dark .Navbar .menu-link a:hover,
-  #myApp.dark .Navbar .menu-link .active:hover {
+  #myApp.dark .Navbar .menu-link a {
     color: var(--fifth-color);
   }
-  #myApp.dark .Navbar .menu-link .active {
+  #myApp.dark .Navbar .menu-link a:hover {
+    color: var(--third-color);
+  }
+  #myApp.dark .Navbar .menu-link .active,
+  #myApp.dark .Navbar .menu-link .active:hover {
     color: var(--fifth-color);
   }
 }

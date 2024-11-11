@@ -23,13 +23,13 @@
 }
 .dark .theme-btn {
   flex-direction: row-reverse;
-  color: var(--fourth-color);
+  color: var(--fifth-color);
   justify-content: end;
-  background-color: var(--primary-color);
-  border: 1.5px var(--fourth-color) solid;
+  background-color: var(--secundary-color);
+  border: 1.5px var(--fifth-color) solid;
 }
 .dark .theme-btn div {
-  background-color: var(--fourth-color);
+  background-color: var(--fifth-color);
   margin-right: 0.1em;
   margin-left: 0.2em;
 }
