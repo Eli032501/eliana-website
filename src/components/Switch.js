@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
+import "./Switch.css";
 export default function Switch() {
   const [themeDark, setThemeDark] = useState(false);
 
@@ -9,8 +10,9 @@ export default function Switch() {
     myApp.classList.toggle("dark");
   }
   return (
-    <button id="button-switch" className="dark-mode-btn" onClick={buttonSwitch}>
-      {themeDark ? "☾" : "☼"}
+    <button id="button-switch" className=" theme-btn" onClick={buttonSwitch}>
+      <div></div>
+      {themeDark ? "☼" : "☾"}
     </button>
   );
 }

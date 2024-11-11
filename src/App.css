@@ -103,9 +103,14 @@ h4 {
 #myApp.dark {
   --primary-color: #eef5ff;
   --secundary-color: #002d54;
-  --third-color: #b24d7a;
-  --fourth-color: #b24d7a;
+  --third-color: #7c9dd5;
+  --fifth-color: #d58bac;
 }
+#myApp.dark h3,
+#myApp.dark h1 {
+  color: var(--fifth-color);
+}
+
 .App .dark-icon {
   display: none;
 }
@@ -116,14 +121,12 @@ h4 {
   display: none;
 }
 #myApp.dark .footer {
-  background-color: var(--third-color);
+  background-color: var(--secundary-color);
   color: var(--primary-color);
+  border-top: solid 1px var(--fifth-color);
 }
 #myApp.dark .footer a {
-  color: var(--secundary-color);
-}
-.dark-mode-btn {
-  background-color: #b24d7a;
+  color: var(--fifth-color);
 }
 /* ------- Responsive -------- */
 

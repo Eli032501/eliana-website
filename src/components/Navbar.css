@@ -60,6 +60,9 @@
   height: 100vh;
   width: 100%;
 }
+#myApp.dark .Navbar .menu-group {
+  background-color: #7c9dd5ab;
+}
 .Navbar .menu-bg {
   position: absolute;
   top: 50%;
@@ -77,22 +80,29 @@
   align-items: center;
   height: inherit;
   transform: rotate(-12deg);
-  line-height: 4.5em;
+  line-height: 5em;
 }
+
 .Navbar .menu-link a {
   font-family: var(--font-headers);
   font-size: 2.3em;
   color: var(--fourth-color);
 }
-.Navbar .menu-link .active {
-  color: var(--third-color);
-}
+.Navbar .menu-link .active,
 .Navbar .menu-link a:hover {
   color: var(--third-color);
-  opacity: 1;
 }
+
 .Navbar .menu-link .active:hover {
+  opacity: 1;
   text-decoration: none;
+}
+#myApp.dark .Navbar .menu-link a {
+  color: var(--fifth-color);
+}
+#myApp.dark .Navbar .menu-link .active,
+#myApp.dark .Navbar .menu-link a:hover {
+  color: var(--third-color);
 }
 @media (min-width: 450px) {
   .Navbar .menu-bg {
@@ -135,7 +145,7 @@
   }
   .Navbar .menu-link a {
     font-family: var(--font-text);
-    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     font-size: 1.1em;
     color: var(--third-color);
   }
@@ -146,7 +156,15 @@
     color: var(--fourth-color);
     opacity: 1;
   }
+
   .Navbar .menu-link .active:hover {
     color: var(--third-color);
+  }
+  #myApp.dark .Navbar .menu-link a:hover,
+  #myApp.dark .Navbar .menu-link .active:hover {
+    color: var(--fifth-color);
+  }
+  #myApp.dark .Navbar .menu-link .active {
+    color: var(--fifth-color);
   }
 }
