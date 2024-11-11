@@ -6,10 +6,10 @@ import img1 from "../assets/test1.jpeg";
 export default function Header() {
   return (
     <div className="Header">
-      <SubText text="bookaholic" side=" top " />
-      <SubText text="creative" side=" down " />
+      <SubText text="bookwarm" side=" top " />
+      <SubText text="travel seeker" side=" down " />
       <SubText text="music addictic" side=" down " />
-      <SubText text="passionate" side=" top " />
+      <SubText text="art lover" side=" top " />
 
       <div className="grid-img">
         <ImgStyle alt="test" src={img1} styleClass="portrait profile-img " />

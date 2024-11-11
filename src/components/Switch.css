@@ -23,7 +23,7 @@
 }
 .dark .theme-btn {
   flex-direction: row-reverse;
-  color: var(--fifth-color);
+  color: var(--primary-color);
   justify-content: end;
   background-color: var(--secundary-color);
   border: 1.5px var(--fifth-color) solid;
