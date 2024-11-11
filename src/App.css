@@ -14,6 +14,25 @@
   --padding-img: 10px 10px 40px 10px;
   --shadow: 5px 5px 12px #14154360;
 }
+#myApp.dark {
+  --primary-color: #eef5ff;
+  --secundary-color: #002d54;
+  --third-color: #4c70ad;
+  --fourth-color: #b24d7a;
+  color: #dcdcdc;
+}
+.App .dark-icon {
+  display: none;
+}
+#myApp.dark .dark-icon {
+  display: block;
+}
+#myApp.dark .light-icon {
+  display: none;
+}
+.dark-mode-btn {
+  background-color: #b24d7a;
+}
 
 .App {
   background-color: var(--secundary-color);
@@ -22,6 +41,7 @@
   font-size: 12px;
   min-height: 100vh;
 }
+
 .App .Layout main {
   width: min(calc(100% - 40px), 1054px);
   margin: 0 auto;

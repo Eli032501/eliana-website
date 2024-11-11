@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
-
+import Switch from "./Switch";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   function handleMenu() {
@@ -35,6 +35,7 @@ export default function Navbar() {
             <li className="menu-link" onClick={handleMenu}>
               <NavLink to="/contacts">contact me</NavLink>
             </li>
+            <Switch />
           </ul>
         </span>
       </div>
