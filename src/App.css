@@ -93,8 +93,9 @@ h4 {
   font-size: 0.7em;
   padding: 0.3rem 0.6rem;
   text-align: center;
-  background-color: var(--primary-color);
-  color: var(--secundary-color);
+  background-color: var(--secundary-color);
+  color: var(--primary-color);
+  border-top: solid 1px var(--fourth-color);
 }
 .App .footer a {
   color: var(--fourth-color);
@@ -123,8 +124,6 @@ h4 {
   display: none;
 }
 #myApp.dark .footer {
-  background-color: var(--secundary-color);
-  color: var(--primary-color);
   border-top: solid 1px var(--fifth-color);
 }
 #myApp.dark .footer a {

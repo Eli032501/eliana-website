@@ -6,8 +6,11 @@
 }
 .Contacts .SocialSection .social-footer {
   max-width: 400px;
+  margin-bottom: 1rem;
 }
-
+.Contacts .SocialSection .social-footer .gr-icon {
+  margin-top: 2rem;
+}
 @media (min-width: 400px) {
   .Contacts {
     max-width: 600px;
