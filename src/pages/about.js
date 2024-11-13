@@ -13,10 +13,12 @@ export default function About() {
         <span className="grid-content">
           <h3>about me</h3>
           <p>
-            Lorem ipsum dolor sit amet. Et asperiores quia non tempora facere
-            aut quia molestiae nam maxime voluptates. Aut fuga maiores sed
-            itaque velit est quae illo a iusto fugit non quia dolorum. Ut magnam
-            sint qui iste sequi et enim laborum est neque nisi sed esse quaerat!
+            I'm 23 years old, very curious, and always looking to learn more. I
+            live in Lisbon, Portugal, and I am passionate about music, books,
+            and travel. I'm currently looking for new opportunities in front-end
+            development. My coding skills include <strong>react</strong>,
+            <strong> bootstrap</strong> and <strong>API</strong>, I also have
+            knowledge in <strong>UI/UX </strong>design
           </p>
 
           <h3>languages</h3>
