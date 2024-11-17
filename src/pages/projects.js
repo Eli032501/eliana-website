@@ -13,21 +13,21 @@ export default function Projects() {
       <ProjSection
         title="weather app"
         subtitle="react . API . bootstrap"
-        text="I built this project in SheCodes React workshop. Using my previous knowledge of Bootstrap, and Responsive Development and my recent skills with React and APIs, I created a fully-functioning weather app."
+        text="I developed this project during the SheCodes React workshop, using my previous knowledge in Bootstrap and responsive design along with my newly acquired skills in React and APIs. The result is a fully functional weather application."
         img={prj1}
         link="https://react-weather-forecast-eli.netlify.app/"
       />
       <ProjSection
         title="dictionary app"
         subtitle="react . API . bootstrap"
-        text="While working in SheCodes React workshop I developed a fully functional and responsive dictionary app. Using React and 2 APIs I built an app that provides meanings, synonyms, phonetics, and images of the word provided by the user."
+        text="During the SheCodes React workshop, I created a fully functional and responsive dictionary app. Utilizing React and integrating two APIs, I built a tool that delivers word meanings, synonyms, phonetics, and related images based on user input."
         img={prj2}
         link="https://dictionary-app-react-eli.netlify.app/"
       />
       <ProjSection
         title="AI Generator"
         subtitle="JS . AI API"
-        text="I built these projects using AI to generate movie or TV series recommendations that match specific user input. For this project, I used a Typewriter JS plugin and an AI API."
+        text="I created these projects to generate personalized movie and TV series recommendations based on specific user instructions. For this, I used an AI API and a Typewriter JS plugin, to enhance the user experience."
         img={prj3}
         link="https://what-to-watch-ai-generator.netlify.app/"
       />

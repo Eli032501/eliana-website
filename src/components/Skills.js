@@ -8,12 +8,12 @@ import ImgStyle from "./ImgStyle";
 export default function Skills() {
   return (
     <div className="Skills flex-row">
-      <i className="fa-brands fa-html5 " />
-      <i className="fa-brands fa-css3-alt" />
-      <i className="fa-brands fa-js" />
-      <i className="fa-brands fa-bootstrap" />
-      <i className="fa-brands fa-react" />
-      <i className="fa-brands fa-github" />
+      <i className="fa-brands fa-html5 " alt="HTML" />
+      <i className="fa-brands fa-css3-alt" alt="CSS" />
+      <i className="fa-brands fa-js" alt="JavaScript" />
+      <i className="fa-brands fa-bootstrap" alt="Bootstrap" />
+      <i className="fa-brands fa-react" alt="React" />
+      <i className="fa-brands fa-github" alt="Github" />
       <i className="fa-brands fa-figma" alt="figma" />
       <ImgStyle src={vscode} alt="vscode" styleClass="footer-icon light-icon" />
       <ImgStyle

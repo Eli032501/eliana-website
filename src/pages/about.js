@@ -13,12 +13,12 @@ export default function About() {
         <span className="grid-content">
           <h3>about me</h3>
           <p>
-            I'm 23 years old, very curious, and always looking to learn more. I
-            live in Lisbon, Portugal, and I am passionate about music, books,
-            and travel. I'm currently looking for new opportunities in front-end
-            development. My coding skills include <strong>react</strong>,
-            <strong> bootstrap</strong> and <strong>API</strong>, I also have
-            knowledge in <strong>UI/UX </strong>design
+            I'm 23 years old, very curious, and always eager to learn more. I
+            live in Lisbon, Portugal, and am passionate about music, books, and
+            travel. Currently, I'm seeking new opportunities in front-end
+            development. My coding skills include <strong>React</strong>,
+            <strong> Bootstrap</strong> and <strong>API</strong>, and I also
+            have knowledge of <strong>UI/UX </strong>design.
           </p>
 
           <h3>languages</h3>
@@ -37,21 +37,21 @@ export default function About() {
               date="2019 - 2022"
               degree="Bachelor's degree in Audiovisual and Multimedia"
               place="School of Communication and Media Studies - Lisbon PI"
-              link="https://www.escs.ipl.pt/en"
+              link="https://www.escs.ipl.pt/en/courses/undergraduate/audiovisual-and-multimedia"
             />
 
             <ListPath
               date="2022 - 2023"
               degree="Web Front-End Specialization Course"
               place="IADE Faculty of Design, Techonology and Communication"
-              link="https://www.iade.europeia.pt/en/iade/"
+              link="https://www.iade.europeia.pt/programa-especializacao/programacao-web-front-end/"
             />
 
             <ListPath
               date="2023 - 2024"
               degree="Front-End Diploma - SheCodes"
               place="SheCodes - Online coding workshop"
-              link="https://www.shecodes.io/"
+              link="https://www.shecodes.io/graduates/99142-eliana-pereira"
             />
           </ul>
           <SocialSection iconSize="footer-icon" />

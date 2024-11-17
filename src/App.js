@@ -28,7 +28,7 @@ function App() {
         >
           open source
         </a>{" "}
-        website
+        website built with React
       </p>
     </div>
   );
